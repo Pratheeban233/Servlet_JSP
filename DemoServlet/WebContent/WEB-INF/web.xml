@@ -4,7 +4,12 @@
   <servlet>
   	<servlet-name>AddServlet</servlet-name>
   	<servlet-class>com.learn.AddServlet</servlet-class>
+  	<init-param>
+  	<param-name>name1</param-name>
+  	<param-value>Prathi</param-value>
+  	</init-param>
   </servlet>
+  
   <servlet-mapping>
   	<servlet-name>AddServlet</servlet-name>
   	<url-pattern>/add</url-pattern>
@@ -13,10 +18,24 @@
    <servlet>
   	<servlet-name>SqServlet</servlet-name>
   	<servlet-class>com.learn.SqServlet</servlet-class>
+  	<init-param>
+  	<param-name>name2</param-name>
+  	<param-value>Abiya</param-value>
+  	</init-param>
   </servlet>
+  
   <servlet-mapping>
   	<servlet-name>SqServlet</servlet-name>
   	<url-pattern>/sq</url-pattern>
   </servlet-mapping>
   
+  	<context-param>
+  	<param-name>name3</param-name>
+  	<param-value>baby</param-value>
+  	</context-param>
+  	
+  	<context-param>
+  	<param-name>name4</param-name>
+  	<param-value>pappy</param-value>
+  	</context-param>
 </web-app>
